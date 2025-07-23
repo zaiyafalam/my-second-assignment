@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+   background: rgb(245, 248, 255);
+
+  padding: 0;
+  margin: 0;
+}
+.noto-sans{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+.nav-right{
+    display: flex;
+    font-size: 1rem;
+   font-weight: 400;
+ line-height: 24px;
+ gap: 48px;
+ align-items: center;
+ margin: 10px 0;
+}
+.first-item{
+   font-weight: bold;
+   color: black;
+}
+.second-item{
+    color: rgb(137, 135, 161);
+}
+.card-item{
+    color:rgb(0, 0, 0);
+
+}
+.banner{
+   background: rgb(245, 248, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+     background:;
+    height: 461px;
+     left: 150px;
+     top: 221px;
+     margin-top: 100px;
+    
+}
+.banner-left{
+    margin-top: 30px;
+    flex: 1;
+
+}
+.banner-right img{
+    flex: 1;
+  
+}
+.banner-left h1{
+    font-weight: 900px;
+    font-size: 6rem;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400px;
+    font-size: 1.2rem;
+    margin: 13px 0px;
+    
+
+}
+.title-1{ 
+    color:rgb(233, 90, 8);
+}
+@media (max-width: 576px) {
+    .nav,.banner,.nav-right{
+        flex-direction: column;
+    }
+
+     
+
+    .nav-right{
+        align-items:center;
+        flex: none;
+        order: 1;
+    }
+    .first-item{
+        display: none;
+    }
+    .second-item{
+        display: none;
+    }
+     
+    
+    
+    .nav{
+        flex-direction: row;
+        align-items: center;
+    }
+    .banner-right img{
+      width: 393.18px;
+      height: 245px;
+      margin: auto 0;
+      margin: 130px;
+    }
+    .nav-left{
+        align-items: center;
+        margin-bottom: 80px;
+    }
+   
+.banner{
+         
+        
+        align-items: center;
+        margin-top: 100px auto;
+
+    }
+}
