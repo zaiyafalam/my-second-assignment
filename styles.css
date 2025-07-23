@@ -1,6 +1,8 @@
 *{
   box-sizing: border-box;
-   background: rgb(245, 248, 255);
+ background: rgb(245, 248, 255);
+  
+   
 
   padding: 0;
   margin: 0;
@@ -50,26 +52,31 @@ nav li a{
 
 }
 .banner{
-   background: rgb(245, 248, 255);
+   
+   border: 2px teal;
+   border-radius: 20px;
     display: flex;
     align-items: center;
     border-radius: 10px;
-     background:;
-    height: 461px;
-     left: 150px;
-     top: 221px;
-     margin-top: 100px;
+     margin: 80px auto;
     
 }
 .banner-left{
     margin-top: 30px;
-    flex: 1;
+    
 
 }
 .banner-right img{
-    flex: 1;
+    width: 570px;
+    height: 355px;
+    display: block;
+    
   
 }
+.img{
+    max-width: 100%;
+}
+
 .banner-left h1{
     font-weight: 900px;
     font-size: 6rem;
@@ -80,52 +87,98 @@ nav li a{
     font-size: 1.2rem;
     margin: 13px 0px;
     
-
 }
 .title-1{ 
     color:rgb(233, 90, 8);
 }
+.flower-details{
+    text-align: center;
+    margin: 80px auto;
+}
+.flower-details h1{
+    font-weight: 600px;
+    font-size: 4rem;
+    margin: 64px auto;
+    text-align: center;
+    margin: 0px;
+    
+}
+.flower-details p{
+    text-align: center;
+    font-weight: 400px;
+    font-weight: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+    
+
+}
+.flowers-card{
+    text-align: center;
+}
+.primary-btn{
+    background: rgb(233, 90, 8);
+    padding: 10px 70px;
+    font-size: 1rem;
+    font-weight: 600px;
+    color: white;
+}
+.card-price{
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 700px;
+    font-size: 1.4rem;
+    
+}
+.flowers-card-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+.flowers-card h3{
+    font-weight: 500px;
+    font-size: 1.6rem;
+}
+
 @media (max-width: 576px) {
-    .nav,.banner,.nav-right{
+    .nav,
+    .nav-right,
+    .banner img
+    {
         flex-direction: column;
     }
 
-     
-
-    .nav-right{
-        align-items:center;
-        flex: none;
-        order: 1;
-    }
-    .first-item{
+   
+      .first-item{
         display: none;
     }
     .second-item{
         display: none;
     }
-     
     
     
     .nav{
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        
     }
-    .banner-right img{
-      width: 393.18px;
-      height: 245px;
-      margin: auto 0;
-      margin: 130px;
+    .flowers-card-content{
+        grid-template-columns: repeat(2,1fr);
     }
+   
+     .banner-right img{
+        
+     } 
+      
+
+     
+    
     .nav-left{
         align-items: center;
         margin-bottom: 80px;
     }
    
-.banner{
-         
-        
-        align-items: center;
-        margin-top: 100px auto;
+
 
     }
-}
+
