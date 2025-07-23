@@ -139,10 +139,10 @@ nav li a{
     font-size: 1.6rem;
 }
 
-@media (max-width: 576px) {
+@media  (max-width: 768px) {
     .nav,
     .nav-right,
-    .banner img
+    .banner 
     {
         flex-direction: column;
     }
