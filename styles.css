@@ -264,8 +264,29 @@ nav li a{
   background: rgb(233, 90, 8);
 
  }
- 
+  .flower-description{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+  }
+ .title-first ul {
+    list-style-type: none;
 
+
+ }
+ .title-first ul li a{
+    text-decoration: none;
+    gap: 20px;
+    color: rgb(107, 114, 128);
+ }
+ .description-content p{
+    font-size: 1.2rem;
+    font-weight: 400px;
+    color: rgb(107, 114, 128);
+ }
+ .flowers-website{
+    gap: 5px;
+ }
  
 @media   (max-width: 768px) {
     .nav,
@@ -273,7 +294,8 @@ nav li a{
     .banner,
     .flowers-shop,
     .flowers-picture,
-    .cards-content-flowers
+    .cards-content-flowers,
+     .flower-description
 
     {
         flex-direction: column;
