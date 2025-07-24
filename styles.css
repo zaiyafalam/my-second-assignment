@@ -199,12 +199,45 @@ nav li a{
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.5);
 }
+.flowers-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 22px;
+    margin: 50px 80px;
 
+}
+.cards-content-flowers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+.bloom-content img{
+    width: 366.22px;
+     height: 206px;
+     border-radius: 10px;
+}
+.ena-content img{
+    width: 380.22px;
+     height: 206px;
+   border-radius: 10px;
+}
+.zabo-content img{
+    width: 753px;
+   height: 423.13px;
+   border-radius: 10px;
+}
+
+ 
 @media  (max-width: 768px) {
     .nav,
     .nav-right,
     .banner,
-    .flowers-shop
+    .flowers-shop,
+    .flowers-picture,
+    .cards-content-flowers
 
     {
         flex-direction: column;
