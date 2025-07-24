@@ -231,7 +231,7 @@ nav li a{
 }
 
  
-@media  (max-width: 768px) {
+@media  (max-width: 768px), (min-width: 576px) {
     .nav,
     .nav-right,
     .banner,
