@@ -138,17 +138,80 @@ nav li a{
     font-weight: 500px;
     font-size: 1.6rem;
 }
+.flowers-shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    
+    
+}
+.shop-picture {
+    
+}
+.shop-title{
+    color: rgb(0, 0, 0);
+    font-weight: 700px;
+    font-size: 3.2rem;
+    margin-left: 20px;
+}
+.shop-right-side {
+
+    flex: 1;
+    
+}
+.trusted-badge{
+    width: 250px;
+   height: 286px;
+  
+   margin-left: 380px;
+   margin-bottom: -180px;
+  
+  
+    
+
+}
+.experience-badge{
+    align-items: center;
+}
+.shop-left-side{
+    flex: 1;
+
+    
+}
+.shop-right-side ul li{
+    font-size: 1.6rem;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+}
+.shop-details{
+    text-align: center;
+    margin: 64px auto;
+
+}
+.shop-title{
+    font-weight: 700px;
+    font-size: 3.2rem;
+}
+.shop-description{
+    font-weight: 400px;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 @media  (max-width: 768px) {
     .nav,
     .nav-right,
-    .banner 
+    .banner,
+    .flowers-shop
+
     {
         flex-direction: column;
     }
 
    
-      .first-item{
+   .first-item{
         display: none;
     }
     .second-item{
@@ -166,18 +229,14 @@ nav li a{
         grid-template-columns: repeat(2,1fr);
     }
    
-     .banner-right img{
-        
-     } 
-      
-
-     
     
     .nav-left{
         align-items: center;
         margin-bottom: 80px;
     }
-   
+   .trusted-badge{
+    display: none;
+   }
 
 
     }
