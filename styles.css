@@ -218,26 +218,61 @@ nav li a{
     align-items: center;
     
 }
-.bloom-content img{
-    width: 366.22px;
-     height: 206px;
+.bloom-content {
+    background-image: url(./assets/deal-bloom.png);
+   padding:70px 80px;
      border-radius: 10px;
+     text-align: center;
 }
-.ena-content img{
-    width: 380.22px;
-     height: 206px;
+.ana-content {
+     background-image: url(./assets/deal-ana.png);
+   padding:70px 80px;
    border-radius: 10px;
+   text-align: center;
 }
-.zabo-content img{
-    width: 753px;
-   height: 423.13px;
+.zabo-content {
+     background-image: url(./assets/deal-zabo.png);
+    padding: 180px 150px;
    border-radius: 10px;
+   text-align: center;
+
+   
+}
+.zabo-content h3{
+    background: none;
+    color: white;
+}
+.ana-content h3{
+     background: none;
+    color: white;
+
+}
+.bloom-content h3{
+     background: none;
+    color: white;
+}
+.bloom-content a{
+    background: none;
+    
+    color: white;
+}
+.ana-content a{
+    background: none;
+    
+    color: white;
+}
+.zabo-content a{
+    background: none;
+
+    color: white;
 }
 .contact-us-parent{
     background-image: url(./assets/news-letter-bg.png);
-    padding: 200px 150px;
+    padding: 180px 180px;
     text-align: center;
     margin: 70px auto;
+    
+
 }
  .contact-us-parent h2{
     background: none;
@@ -333,10 +368,54 @@ nav li a{
    .trusted-badge{
     display: none;
    }
-   .zabo-content img{
-    width: 380.22px;
-     height: 206px;
+   .bloom-content {
+    background-image: url(./assets/deal-bloom.png);
+   padding:70px 80px;
+     border-radius: 10px;
+     text-align: center;
+}
+.ana-content {
+     background-image: url(./assets/deal-ana.png);
+   padding:70px 80px;
    border-radius: 10px;
+   text-align: center;
+}
+.zabo-content {
+     background-image: url(./assets/deal-zabo.png);
+    padding:70px 80px;
+   border-radius: 10px;
+   text-align: center;
+
+   
+}
+.zabo-content h3{
+    background: none;
+    color: white;
+}
+.ana-content h3{
+     background: none;
+    color: white;
+
+}
+.bloom-content h3{
+     background: none;
+    color: white;
+}
+   
+.bloom-content a{
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+.ana-content a{
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+.zabo-content a{
+    background: none;
+    text-decoration: none;
+    color: white;
 }
  .contact-us-parent input{
     padding: 20px 150px;
