@@ -269,6 +269,11 @@ nav li a{
     justify-content: space-around;
     margin: 50px auto;
   }
+  .description-content-details {
+    font-size: 1.2rem;
+    font-weight: 400px;
+    color: rgb(107, 114, 128);
+ }
  .title-first ul {
     list-style-type: none;
 
@@ -276,16 +281,12 @@ nav li a{
  }
  .title-first ul li a{
     text-decoration: none;
+    gap: 30px;
+    color: rgb(107, 114, 128);
+ }
+ 
+ .flowers-website img{
     gap: 20px;
-    color: rgb(107, 114, 128);
- }
- .description-content p{
-    font-size: 1.2rem;
-    font-weight: 400px;
-    color: rgb(107, 114, 128);
- }
- .flowers-website{
-    gap: 5px;
  }
  
 @media   (max-width: 768px) {
